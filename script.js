@@ -4,3 +4,6 @@
 // {
 //     homebtn.classList.add('hidden');
 // }
+
+const HomeBtn = document.querySelector('#home');
+HomeBtn.addEventListener('click',() => HomeBtn.style.backgroundColor='#337ab7')
