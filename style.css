@@ -79,12 +79,12 @@ a{
     /* height: 60%; */
 }
 button{
-    background-color: rgb(0, 0, 0);
+    background-color: #00ffdd34;
     border-radius: 50px;
     width: 25vw;
     height: 50px;
     font-size: 1.5rem;
-    color: aqua;
+    color: #a09eb3d7;
     border: none;
     padding: 0.5rem;
     border-bottom: 1px solid;
@@ -100,7 +100,7 @@ button:hover,button:focus{
     transform: scale(1.1);
     transition: all 0.5s ease-out;
     color: #000000;
-    background-color: aqua;
+    background-color: rgb(94, 209, 238);
 }
 
 /* .active
@@ -110,5 +110,6 @@ button:hover,button:focus{
 
 .active
 {
-    background-color: white;
+    background-color: rgb(94, 209, 238);
+    color: black;
 }
